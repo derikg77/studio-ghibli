@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Desafio - 5</title>
+</head>
+
+<body>
+  <header data-anime="right">
+    <a href="#">
+      <img src="./image/logo.svg" alt="Logo">
+    </a>
+    <nav class="nav">
+      <a href="#"><img src="./image/facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="./image/instagram.svg" alt="Instagram"></a>
+      <a href="#"><img src="./image/twitter.svg" alt="Twitter"></a>
+      <a href="#"><img src="./image/youtube.svg" alt="Youtube"></a>
+    </nav>
+  </header>
+  <main class="main" data-anime="right">
+    <section class="about" data-anime="right">
+      <article class="movie" >
+        <div>
+          <h3 class="co-founder">Hayao Miyazaki</h3>
+          <h2 class="title">A Viagem de Chihiro</h2>
+        </div>
+        <div>
+          <p class="synopsis">Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que a desobedecem são transformados em animais.</p>
+        </div>
+        <div class="btn-container">
+          
+          <button class="btn btn-play" data-modal="abrir">
+            
+            <img src="./image/play.svg" alt="Play">
+            <span>Assistir agora</span>
+          </button>
+          <button class="btn btn-trailler"><span>Assista o trailer</span></button>
+        </div>
+      </article>
+      <picture>
+        <img class="illustration" src="./image/image2.svg" alt="Fantasmas">
+      </picture>
+      <section class="modal-container" data-modal="container">
+        <div class="modal">
+          <video id="myVideo" width="100%" height="100%" controls>
+            <source src="./image/A Viagem de Chihiro _ Amadurecimento e Identidade(480P).mp4" type="video/mp4">
+            </video>
+        </div>
+        <button data-modal="fechar" class="fechar">X</button>
+      </section>
+    </section>
+    
+  </main>
+  
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
