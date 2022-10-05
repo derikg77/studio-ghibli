@@ -9,9 +9,7 @@
 
 Conclusão do desafio 5 proposto pela comunidade codelândia. 
 
-## 🎓 Aprendizado
-
-> Em breve.
+##
 
 ## 🚀 Tecnologias Utilizadas
 
