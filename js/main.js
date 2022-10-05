@@ -1,4 +1,4 @@
-//Animação ai scroll
+//Animação ao scroll
 const sections = document.querySelectorAll('[data-anime="right"]');
 const windowMetade = window.innerHeight * 0.6;
 
@@ -33,10 +33,7 @@ if(botaoAbrir && botaoFechar && containerModal) {
       toggleModal(event);
     }
   }
-  // function AbreVideo(){
-	// 	containerModal.style.display = "block";
-	// 	vid.play();
-	// }
+ 
 	
 	function FechaVideo()
 	{
@@ -48,6 +45,5 @@ if(botaoAbrir && botaoFechar && containerModal) {
   botaoAbrir.addEventListener('click', toggleModal);
   botaoFechar.addEventListener('click', toggleModal);
   containerModal.addEventListener('click', cliqueForaModal);
-  // containerModal.addEventListener('click', AbreVideo);
   containerModal.addEventListener('click', FechaVideo);
 }
